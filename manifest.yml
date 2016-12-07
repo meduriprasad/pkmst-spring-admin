@@ -1,0 +1,7 @@
+applications:
+- name: pkmst-spring-admin
+  memory: 512M
+  instances: 1
+  host: pkmst-spring-admin
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.7 
+  path: target/SpringAdmin.jar
